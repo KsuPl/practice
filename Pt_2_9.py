@@ -2,7 +2,7 @@ a = int(input('Введите натуральное число, в которо
 a = str(a)
 arr = []
 for i in a:
- arr.append(i)
-print(arr.index(max(arr))+1)
+    arr.append(i)
+print(arr.index(max(arr)) + 1)
 arr.reverse()
-print(arr.index(max(arr))+1)
+print(arr.index(max(arr)) + 1)
