@@ -20,4 +20,5 @@ graph = {
 first = 'A'
 final = 'F'
 way1 = []
-print('Все пути из вершины ' + first + ' до вершины ' + final + ':', *find_rouds(graph, first, final, way1))
+print('Все пути из вершины ' + first + ' до вершины '
+      + final + ':', *find_rouds(graph, first, final, way1))
