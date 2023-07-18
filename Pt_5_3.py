@@ -6,6 +6,6 @@ y2 = int(input('Введите конечный год: '))
 if max(df['Год выпуска'].astype(int)) >= y1 and \
         min(df['Год выпуска'].astype(int)) <= y2:
     print(df.loc[(df['Год выпуска'].astype(int) >= y1) & (
-            df['Год выпуска'].astype(int) <= y2)])
+        df['Год выпуска'].astype(int) <= y2)])
 else:
     print('Книги не найдены')
