@@ -16,4 +16,3 @@ for i in range(1, len(a)):
         s_arr = sum(list(map(int, j)))
         if s_arr == suma:
             print(chislo(n))
-
